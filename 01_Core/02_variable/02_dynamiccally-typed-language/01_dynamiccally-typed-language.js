@@ -37,6 +37,7 @@ test = [];
 console.log(typeof test); // object
 
 
+
 test = function(){}; // 함수
 console.log(typeof test); // function
 
