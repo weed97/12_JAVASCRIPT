@@ -2,6 +2,7 @@ console.log('===== 숫자 타입으로 변환 =====');
 
 // 산술 연산자의 피연산자는 모두 숫자여하기 떄문에
 // 숫자가 아닌 피연산자를 숫자 타입으로 암묵적 타입변환한다.
+console.log('========== 숫자 타입 변환==========');
 console.log(10 - '5');
 console.log(10 * '5');
 console.log(10 / '5');
@@ -11,8 +12,11 @@ console.log(10 % 'javacript'); // Nan - 피연산자 숫자 반환 불가로 연
 // 숫자가 아닌 피연산자를 숫자 타입으로 암묵적 타입변환한다.
 console.log(10 > '5');
 
+
 // +  단항 연산자는 피연산자가 숫자 타입의 값이 아니면 숫자 타입의 값으로
 // 암묵적 타입변환 수행
+console.log('===============문자열,boolean,null,undefined,{},[],funtion(){}================');
+
 console.log(+''); // 0
 console.log(+'1'); // 1
 console.log(+'javascript'); // NaN

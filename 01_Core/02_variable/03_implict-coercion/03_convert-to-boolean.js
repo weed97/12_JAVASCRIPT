@@ -7,10 +7,10 @@ Falsy 값(거짓으로 평가되는 값)
 으로 구분된다.
 */
 
-// 'javascript' -> Truthy 값이기 때문에 true로 형변환 된 것
+// 'Javascript' -> Truthy 값이기 때문에 true로 형변환 된 것
 if('JavaScript') {
     console.log("if('JavaScript')");}
-if(true) console.log("if(true");
+if(true) console.log("if(true)");
 
 if(false) console.log("if(false)");
 if(undefined) console.log("if(undefined)");
