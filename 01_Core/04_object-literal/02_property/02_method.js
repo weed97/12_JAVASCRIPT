@@ -15,4 +15,4 @@ var dog = {
     }
 }
 
-dog.eat('고구마');
+dog.eat();

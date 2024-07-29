@@ -12,6 +12,7 @@ console.log(student.name === undefined); // 존재하기 떄문에 false
 
 console.log(student.test === undefined); // true -> 존재하지 않는다.
 
+
 // test 프로퍼티는 undefined 값이라 프로퍼티는 존재하지만
 // undefined 값이라 true라고 나온다. => 존재하지 않는다고 판별되는 문제가 생긴다.
 

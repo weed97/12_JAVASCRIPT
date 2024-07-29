@@ -12,16 +12,19 @@
 
 // 논리 연산의 결과 결정한 첫번쨰 피연산자를 반환한다.
 console.log('apple' || 'banana'); // apple
-console.log(false || 'banana'); // banana
+console.log('apple' || 'banana'); // banana
 
 
-// null 또는 undefined가 아닌지 확인하고 프로퍼티를 창조할 떄
+// null 또는 undefined가 아닌지 확인하고 프로퍼티를 참조할 떄
 var obj = null;
 // var val = obj.value; // TypeError: Cannot read properties of null (reading 'value')
 
 // obj 가 Falsy(null, undefined) 값이면 좌항만 실행하여 val -> null
 // obj 가 truthy 값이면, val -> obj.value
 var obj = obj && obj.value;
+
+console.log(obj.value);
+
 
 
 

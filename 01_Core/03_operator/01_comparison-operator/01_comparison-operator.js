@@ -24,14 +24,16 @@ console.log("=================================");
 
 // null, undefined 비교
 console.log(`null == undefined : ${null == undefined}`);
+console.log(`null == undefined : ${null == undefined}`);
 console.log(`null === undefined : ${null === undefined}`);
+
 
 // NaN 자기자신과 일치하지 않는 유일한 값
 console.log(`NaN == NaN : ${NaN == NaN}`);
 console.log(`NaN === NaN : ${NaN === NaN}`);
 
 // Number.isNaN() 사용해서 확인해야 한다.
-console.log(`Number.isNaN : ${Number.isNaN(NaN)}`);
+console.log(`Number.isNaN : ${ (Number.isNaN(NaN))}`);
 
 // 비교 연산자를 통해 문자열끼리 비교도 가능, 유니코드 순으로 비교한다.
 

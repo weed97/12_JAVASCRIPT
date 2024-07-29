@@ -35,10 +35,10 @@ function hello2(name = '아무개') {
         throw new TypeError (
             '인수는 1개여야 하고, 문자열 값이며, 빈문자열을 허용하지 않습니다.'
         )
+        
+        return `${name}님 안녕하세요!~`;
 }
 
-    
-    return `${name}님 안녕하세요!~`;
 
 // 모든 인수는 암묵적으로 arguments 객체의 프로퍼티로 보관된다.
 // var result = hello2();

@@ -21,19 +21,22 @@ new 연산자와 함께 생성자를 호출하여 인스턴스를 생성하는 �
 중괄호 내 0개 이상의 프로퍼티를 정의한다. */
 
 var student = {
-    // 프로퍼티는 키- 값 쌍으로 구성됨
-    // 프로퍼티 : 객체의 상태를 나타내는 값
+    // 프로퍼티는 키-값 쌍으로 구성됨
+    // 프로퍼티 : 객체의 상태를 나타내는 값 (data)
     name : '유관순',
-    age : 15,
-    
-    // 메서드 : 프로퍼티(상태 데이터)를 가 참조하고 조작할 수 있는 동작(behavior)
+    age : 16,
+
+    // 메서드 : 프로퍼티(상태 데이터)를 참조하고 조작할 수 있는 동작(behavior)
     getInfo : function() {
-        return `${this.name}(은)는 ${this.age}세 입니다.`
-    }
+        return `${this.name}(은)는 ${this.age}세 입니다.`;
+    }  
 };
 
 console.log(typeof student);
 console.log(student);
+
+
+
 
 // 프로퍼티를 정의하지 않을시 빈 객체가 생성된다.
 var student2 = {};
